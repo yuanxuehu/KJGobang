@@ -17,6 +17,9 @@
 		68FBF2FC2C75BE2200FB9C26 /* KJGobangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FBF2FB2C75BE2200FB9C26 /* KJGobangTests.m */; };
 		68FBF3062C75BE2200FB9C26 /* KJGobangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FBF3052C75BE2200FB9C26 /* KJGobangUITests.m */; };
 		68FBF3082C75BE2200FB9C26 /* KJGobangUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FBF3072C75BE2200FB9C26 /* KJGobangUITestsLaunchTests.m */; };
+		68FBF3172C75BE8300FB9C26 /* KJGobangView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FBF3162C75BE8300FB9C26 /* KJGobangView.m */; };
+		68FBF31A2C75BEB000FB9C26 /* KJAI.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FBF3192C75BEB000FB9C26 /* KJAI.m */; };
+		68FBF31D2C75BEBD00FB9C26 /* KJPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FBF31C2C75BEBD00FB9C26 /* KJPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		68FBF3012C75BE2200FB9C26 /* KJGobangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJGobangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68FBF3052C75BE2200FB9C26 /* KJGobangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJGobangUITests.m; sourceTree = "<group>"; };
 		68FBF3072C75BE2200FB9C26 /* KJGobangUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJGobangUITestsLaunchTests.m; sourceTree = "<group>"; };
+		68FBF3152C75BE8300FB9C26 /* KJGobangView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJGobangView.h; sourceTree = "<group>"; };
+		68FBF3162C75BE8300FB9C26 /* KJGobangView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJGobangView.m; sourceTree = "<group>"; };
+		68FBF3182C75BEB000FB9C26 /* KJAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJAI.h; sourceTree = "<group>"; };
+		68FBF3192C75BEB000FB9C26 /* KJAI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJAI.m; sourceTree = "<group>"; };
+		68FBF31B2C75BEBD00FB9C26 /* KJPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJPoint.h; sourceTree = "<group>"; };
+		68FBF31C2C75BEBD00FB9C26 /* KJPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +113,7 @@
 		68FBF2DE2C75BE2000FB9C26 /* KJGobang */ = {
 			isa = PBXGroup;
 			children = (
+				68FBF3142C75BE3600FB9C26 /* Class */,
 				68FBF2DF2C75BE2000FB9C26 /* AppDelegate.h */,
 				68FBF2E02C75BE2000FB9C26 /* AppDelegate.m */,
 				68FBF2E22C75BE2000FB9C26 /* SceneDelegate.h */,
@@ -134,6 +144,19 @@
 				68FBF3072C75BE2200FB9C26 /* KJGobangUITestsLaunchTests.m */,
 			);
 			path = KJGobangUITests;
+			sourceTree = "<group>";
+		};
+		68FBF3142C75BE3600FB9C26 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				68FBF3152C75BE8300FB9C26 /* KJGobangView.h */,
+				68FBF3162C75BE8300FB9C26 /* KJGobangView.m */,
+				68FBF3182C75BEB000FB9C26 /* KJAI.h */,
+				68FBF3192C75BEB000FB9C26 /* KJAI.m */,
+				68FBF31B2C75BEBD00FB9C26 /* KJPoint.h */,
+				68FBF31C2C75BEBD00FB9C26 /* KJPoint.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +291,11 @@
 			files = (
 				68FBF2E72C75BE2000FB9C26 /* ViewController.m in Sources */,
 				68FBF2E12C75BE2000FB9C26 /* AppDelegate.m in Sources */,
+				68FBF31D2C75BEBD00FB9C26 /* KJPoint.m in Sources */,
+				68FBF31A2C75BEB000FB9C26 /* KJAI.m in Sources */,
 				68FBF2F22C75BE2100FB9C26 /* main.m in Sources */,
 				68FBF2E42C75BE2000FB9C26 /* SceneDelegate.m in Sources */,
+				68FBF3172C75BE8300FB9C26 /* KJGobangView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
